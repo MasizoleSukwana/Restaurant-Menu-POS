@@ -1,4 +1,8 @@
 # Restaurant Menu Ordering-POS Diagrams
+
+# Project Title - Restaurant POS for Ordering MENU
+# Domain - Restaurant
+
 # C4 Architecural Diagrams Overview
 **Context Diagram:** outlines the high-level communication between the waitstaff, KDS, POS, Menu Ordering System, and customer.
 ![image](https://github.com/user-attachments/assets/c0868a75-d63c-456b-8473-0f1a1853c769)
