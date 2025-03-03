@@ -7,4 +7,4 @@ This point-of-sale system aims to decrease the need for waitstaff and order hand
 For modernizing restaurant operations and guaranteeing quicker, more accurate service, it is also made to easily interact with the infrastructure already in place, such as inventory management and customer management systems.
 # Documentation
 Specification - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20Menu%20Ordering-POS%20Specification.md
-Design/Architecture - 
+Design/Architecture - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Architectural%20Diagrams.md
