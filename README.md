@@ -1,2 +1,9 @@
 # Restaurant-Menu-POS
-This repository is for a proposed Point of Sale system that might be beneficial in the hospitality space, particularly in restaurants.
+
+# Description
+The documentation for a planned Point of Sale (POS) system, intended primarily for usage in restaurants, is contained in this repository. 
+The system seeks to improve customer satisfaction, expedite order processing, and increase operational efficiency. 
+This point-of-sale system aims to decrease the need for waitstaff and order handling problems by incorporating essential features like menu browsing, order customization, digital payment processing, and real-time order communication with the kitchen. 
+For modernizing restaurant operations and guaranteeing quicker, more accurate service, it is also made to easily interact with the infrastructure already in place, such as inventory management and customer management systems.
+# Documentation
+Introduction - 
