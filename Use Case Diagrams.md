@@ -63,7 +63,9 @@ graph TD;
     Supplier -->|Supplies| UC18
 ```
 # Use Case Diagram Image using application - https://online.visual-paradigm.com/
-![image](https://github.com/user-attachments/assets/642fe1f1-da21-49d3-8132-0251bf66dee8)
+
+![image](https://github.com/user-attachments/assets/3d87e66e-53d9-49b0-b5aa-e1915f882412)
+
 
 # Overview of Key Actors, their Roles, Relationship to the System and any Concerns Addressed by the System.
 
