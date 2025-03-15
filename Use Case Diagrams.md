@@ -1,4 +1,11 @@
-# Masi - POS Ordering Menu - Use Case Diagram
+#                Masi - POS Ordering Menu - Use Case Diagram
+
+### **System Overview**
+The **Restaurant POS System** integrates multiple stakeholders, allowing seamless order management, food preparation, payment processing, and inventory control. Customers can place orders digitally, while the chef cooks the meals, and the kitchen staff & waiters process and deliver meals efficiently. IT Admins oversee system accuracy, with the assistance from the finance representatives, they ensure succefful integration between the POS system, its payment functionality and facilitate secure transactions to ensure smooth operation. The manager and supplier contribute to stock management, ensuring efficient restaurant operations.
+
+This system enhances order accuracy, minimizes wait times, and optimizes staff workflow, resulting in an improved customer experience.
+
+#     Use Case Diagram created using the Mermaid Code
 
 ```mermaid
 %% Use Case Diagram for Masi Restaurant - POS for Ordering Menu
@@ -69,7 +76,14 @@ graph TD;
 - **Make Payment**: Customers complete transactions through the integrated payment system.
 **Concern Addressed**: Customers do not have to wait for waiters to place orders.
 
-## 2. Kitchen Staff
+## 2. Chef
+**Role:** The chef is responsible for cooking food.
+**Relation to the System:** Uses the system to view received orders.
+**Use Case Relationships:**
+- **Cooks**: Prepares meals according to customer orders.
+**Concern Addressed:** Relying to waiters for correct orders to process
+
+## 3. Kitchen Staff
 **Role:** The kitchen staff is responsible for viewing, processing, and updating order statuses.
 **Relation to the System:** Uses the kitchen display system to manage orders.
 **Use Case Relationships:**
@@ -78,7 +92,7 @@ graph TD;
 - **Update Order Status**: Kitchen staff mark orders as completed or in progress.
 **Concern Addressed**: Orders are captured accurately to avoid conflicts with customers.
 
-## 3. Waiter
+## 4. Waiter
 **Role:** The waiter delivers food to customers and assists with payments.
 **Relation to the System:** Uses the system to track ready orders and facilitate payments.
 **Use Case Relationships:**
@@ -87,7 +101,7 @@ graph TD;
 - **Facilitate Payment**: Waiters assist customers with payment processing if needed.
 **Concern Addressed**: The work load is reduced, waiters do not have to run around taking orders and mixing them up due high volumes of customers.
 
-## 4. Manager
+## 5. Manager
 **Role:** The manager ensures smooth order processing and handles customer queries.
 **Relation to the System:** Uses the system to verify order accuracy and address issues.
 **Use Case Relationships:**
@@ -97,7 +111,7 @@ graph TD;
 - **Maintains Stock**: Manages and updates inventory levels.
 **Concern Addressed**: Table turnover has increased as customers no longer rely on waiters to place orders and the restaurant can operate with minimal stuff as orders can be processed digitally.
 
-## 5. IT Admin
+## 6. IT Admin
 **Role:** The IT admin maintains the system and ensures its functionality.
 **Relation to the System:** Manages user accounts and system uptime.
 **Use Case Relationships:**
@@ -106,19 +120,12 @@ graph TD;
 - **Fix Technical Issues**: Troubleshoots and resolves system errors.
 **Concern Addressed**: Not Applicable
 
-## 6. Finance Institution Rep
+## 7. Finance Institution Rep
 **Role:** Assists with financial transactions and payment integration.
 **Relation to the System:** Ensures smooth payment processing between the system and financial institutions.
 **Use Case Relationships:**
 - **Assist with Payment Integration**: Helps in setting up and maintaining the payment gateway.
 **Concern Addressed**: Payments are directly integrated to the institution ensuring real time payment, prevents having to collect loads of cash from the restaurant.
-
-## 7. Chef
-**Role:** The chef is responsible for cooking food.
-**Relation to the System:** Uses the system to view received orders.
-**Use Case Relationships:**
-- **Cooks**: Prepares meals according to customer orders.
-**Concern Addressed:** Relying to waiters for correct orders to process
 
 ## 8. Supplier
 **Role:** Supplies ingredients and products to the restaurant.
