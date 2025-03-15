@@ -42,7 +42,14 @@
 2. System processes payment
 3. System confirms payment completion
 
-## 2. Kitchen Staff
+## 2. Chef
+**4. Use Case Name:** Cooks  
+**Actor:** Chef  
+**Precondition:** Order has been received  
+**Description:** Prepares food according to orders  
+**Postcondition:** Food is ready  
+
+## 3. Kitchen Staff
 **Role:** The kitchen staff is responsible for viewing, processing, and updating order statuses.
 **Relation to the System:** Uses the kitchen display system to manage orders.
 **Use Case Relationships:**
@@ -52,7 +59,7 @@
 **Concern Addressed**: Orders are captured accurately to avoid conflicts with customers.
 
 ### Use Case Specification:
-**4. Use Case Name:** View Orders  
+**5. Use Case Name:** View Orders  
 **Actor:** Kitchen Staff  
 **Precondition:** Orders have been placed  
 **Description:** Kitchen staff can access the list of orders  
@@ -61,7 +68,7 @@
 1. Kitchen staff logs into the system
 2. System displays incoming orders
 
-**5. Use Case Name:** Process Orders  
+**6. Use Case Name:** Process Orders  
 **Actor:** Kitchen Staff  
 **Precondition:** Orders are visible on the display  
 **Description:** Kitchen staff prepares food items  
@@ -70,7 +77,7 @@
 1. Kitchen staff selects an order to process
 2. Kitchen staff prepares food
 
-**6. Use Case Name:** Update Order Status  
+**7. Use Case Name:** Update Order Status  
 **Actor:** Kitchen Staff  
 **Precondition:** Order has been processed  
 **Description:** Kitchen staff updates the system with order status  
@@ -78,7 +85,7 @@
 **Step-by-Step Flow:**
 1. Kitchen staff marks order as "Ready"
 
-## 3. Waiter
+## 4. Waiter
 **Role:** The waiter delivers food to customers and assists with payments.
 **Relation to the System:** Uses the system to track ready orders and facilitate payments.
 **Use Case Relationships:**
@@ -88,7 +95,7 @@
 **Concern Addressed**: The workload is reduced, waiters do not have to run around taking orders and mixing them up due to high volumes of customers.
 
 ### Use Case Specification:
-**7. Use Case Name:** View Ready Orders  
+**8. Use Case Name:** View Ready Orders  
 **Actor:** Waiter  
 **Precondition:** Kitchen has marked order as "Ready"  
 **Description:** Waiter views orders that are ready for collection  
@@ -97,7 +104,7 @@
 1. Waiter logs into the system
 2. System displays ready orders
 
-**8. Use Case Name:** Collect & Deliver Orders  
+**9. Use Case Name:** Collect & Deliver Orders  
 **Actor:** Waiter  
 **Precondition:** Orders are marked as "Ready"  
 **Description:** Waiter collects and delivers orders to customers  
@@ -106,7 +113,7 @@
 1. Waiter selects an order for collection
 2. Waiter delivers order to customer
 
-**9. Use Case Name:** Facilitate Payment  
+**10. Use Case Name:** Facilitate Payment  
 **Actor:** Waiter  
 **Precondition:** Customer requests payment assistance  
 **Description:** Waiter assists customers with completing payment  
@@ -115,33 +122,26 @@
 1. Waiter selects customer's order
 2. Waiter helps process payment
 
-## 4. Manager
-**10. Use Case Name:** Ensure Orders are Captured Correctly  
+## 5. Manager
+**11. Use Case Name:** Ensure Orders are Captured Correctly  
 **Actor:** Manager  
 **Precondition:** System is operational  
 **Description:** Manager verifies order accuracy  
 **Postcondition:** Orders are correctly placed  
 
-## 5. IT Admin
-**11. Use Case Name:** Maintain System Uptime  
+## 6. IT Admin
+**12. Use Case Name:** Maintain System Uptime  
 **Actor:** IT Admin  
 **Precondition:** System is online  
 **Description:** IT Admin ensures continuous system operation  
 **Postcondition:** System remains functional  
 
-## 6. Finance Institution Rep
-**12. Use Case Name:** Assist with Payment Integration  
+## 7. Finance Institution Rep
+**13. Use Case Name:** Assist with Payment Integration  
 **Actor:** Finance Institution Rep  
 **Precondition:** Payment system integration required  
 **Description:** Assists in setting up payment processing  
 **Postcondition:** Payments are successfully processed  
-
-## 7. Chef
-**13. Use Case Name:** Cooks  
-**Actor:** Chef  
-**Precondition:** Order has been received  
-**Description:** Prepares food according to orders  
-**Postcondition:** Food is ready  
 
 ## 8. Supplier
 **14. Use Case Name:** Supplies Products  
