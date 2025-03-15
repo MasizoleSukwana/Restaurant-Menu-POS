@@ -21,6 +21,6 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 
 **6. Use Case Specification:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Use%20Case%20Specification.md
 
-**7. Test Case Scenarios:** -
+**7. Test Case Scenarios:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Test%20Cases.md
 
 **8. Reflection on Use Case Diagrams and Test Case Development:** - 
