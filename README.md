@@ -11,7 +11,7 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 
 **1. Design/Architecture:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Architectural%20Diagrams.md
 
-**2. Stakeholder Analysis** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20-%20Stakeholder%20Analysis.docx
+**2. Stakeholder Analysis** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20-%20Stakeholder%20Analysis.md
 
 **3. System Requirements Document:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20%E2%80%93%20System%20Requiremets%20Document.docx
 
