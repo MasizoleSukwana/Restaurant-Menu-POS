@@ -13,7 +13,7 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 
 **2. Stakeholder Analysis** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20-%20Stakeholder%20Analysis.md
 
-**3. System Requirements Document:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20%E2%80%93%20System%20Requiremets%20Document.docx
+**3. System Requirements Document:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20POS%20for%20Ordering%20MENU%20%E2%80%93%20System%20Requiremets%20Document.md
 
 **4. Reflection on Stakeholder Requirements Balancing:** - https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection.md
 
