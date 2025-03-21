@@ -33,8 +33,11 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 [**11. User Stories Table**](https://github.com/users/MasizoleSukwana/projects/2)
 - [User Stories markdown file](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/User%20Stories%20Table.md)
   
-[**12. Product Backlog**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/milestones)
+[**12. Product Backlog Items**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/issues)
+- [Backlog Items Prioritized](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/milestones)
 - [Product Backlog markdown file](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Product%20Backlog%20Table.md)
 
 [**13. Sprint Plan**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/milestone/2)
 - [Sprint Planning markdown file](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Sprint%20Planning.md)
+
+**14. Reflection on Agile Planning**
