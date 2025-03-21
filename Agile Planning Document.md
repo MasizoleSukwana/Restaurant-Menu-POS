@@ -18,6 +18,10 @@ Below is an overview of each, based on what we intend to do for the project.
 - **I want** to browse the menu and the items' descriptions and the pricelist,  
 - **So that** I can decide on the food items to order for my meal.
 
+**User Stories**: You can find the single document here:
+
+- [User Stories Table](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/User%20Stories%20Table.md)
+
 ## User Stories with Acceptance Criteria and Priority
 
 | **User Story ID** | **User Story** | **Acceptance Criteria** | **Priority** |
@@ -43,6 +47,10 @@ Below is an overview of each, based on what we intend to do for the project.
 **Purpose**: To help the Agile team focus on the most important tasks first and ensure that all features and requirements are captured.  
 
 **Prioritization**: Backlog items are prioritized using the MoSCoW prioritization (Must-have, Should-have, Could-have, Won’t-have).
+
+**Product Backlog**: You can find the single document here:
+
+- [Product Backlog Table](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Product%20Backlog%20Table.md)
 
 ## MoSCoW Prioritization for User Stories
 
@@ -74,7 +82,11 @@ Below is an overview of each, based on what we intend to do for the project.
 # 3. Sprint 1 - for the Restaurant-POS Ordering Menu System
 **Definition**: A sprint is a time-boxed iteration, in our project the sprint is set to (run 2 weeks) in which the  team works to complete a set of items from the product backlog. The goal of each sprint is to produce a potentially shippable product increment.  
 
-**Sprint Planning**: Before a sprint starts, the team holds a **Sprint Planning** meeting where they select user stories from the product backlog (based on priority and team capacity) and break them down into smaller tasks.  
+**Sprint Planning**: Before a sprint starts, the team holds a **Sprint Planning** meeting where they select user stories from the product backlog (based on priority and team capacity) and break them down into smaller tasks. 
+
+**Sprint Plan**: You can find the single document here:
+
+- [Product Backlog Table](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Sprint%20Planning.md) 
 
 ## Sprint Planning - Task Breakdown Table
 
