@@ -40,4 +40,4 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 [**13. Sprint Plan**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/milestone/2)
 - [Sprint Planning markdown file](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Sprint%20Planning.md)
 
-**14. Reflection on Agile Planning**
+[**14. Reflection on Agile Planning**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection%20on%20Agile%20Planning.md)
