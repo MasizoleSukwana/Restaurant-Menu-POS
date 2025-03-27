@@ -1,9 +1,9 @@
 ## Kanban Overview
 
 The Kanban board is a visual board that contains all the tasks that are related to the project. These tasks are stacked in the Backlog, which is essentially a storage that has all the tasks to be worked on until the project completion.
-Tasks get pulled from the Backlog according to their development readiness, and they get assigned to different Agile team members fo completion. This board helps to track which tasks have been assigned, who they are assigned to, if any work has been started on them, and so forth.
-The board allows the entire team to have an idea of how the project is going, and can estimate if the tasks can be completed by the the deadline, or if any additional resource allocation is necessary, to the project team.
-On the Board, tasks get moved across different status, as the project is progressing. An example of a common progress flow statuses is; To Do, In Progress, In Review, Done.
+Tasks get pulled from the Backlog and are added to a Sprint or Iteration according to their development readiness, and they get assigned to different Agile team members for completion. This board helps to track which tasks have been assigned, who they are assigned to, if any work has been started on them, and so forth.
+The board allows the entire team to have an idea of how the project is going, and can estimate if the tasks can be completed by the deadline, or if any additional resource allocation is necessary for the project team.
+On the Board, tasks get moved across different statuses as the project progresses. An example of a common progress flow statuses is; To Do, In Progress, In Review, Done.
 The team members are allowed to work on work task at a time, unless the next task is related to their current assigned task, then they can work on both tasks simultaneously.
 A team member can only pick another task if as per the instruction from the scrum master, or when they completed their current task or the task is in a Blocked status.
 
@@ -34,7 +34,7 @@ Tasks that have advanced from the backlog are tracked in the Blocked column, but
 
 
 ### **In Review** 
-Completed activities that require review or testing prior to distribution.  
+Completed activities that require review or testing before distribution.  
 
 
 ### **Done**  
@@ -42,7 +42,7 @@ Tasks that are effectively finished, tested, and implemented.
 
 ---
 
-## Using Kanabard to Manage and Eliminate Bottlenecks
+## Using Kanban to Manage and Eliminate Bottlenecks
 
 ### **Effective Management of Tasks**
 
@@ -59,7 +59,7 @@ Kanban guarantees real-time progress tracking of feature development, problem re
 Kanban, in contrast to strict development methodologies, permits ongoing modifications in response to operational requirements and user input.  
 
 
-### **Features are Clearly Prioritized**
+### **Features are Prioritized**
 
 While less important improvements (like supplier automation) can wait, **"Must-Have"** features like **digital menu access and payment integration** can be focused on immediately.  
 
