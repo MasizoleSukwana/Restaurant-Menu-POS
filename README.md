@@ -41,3 +41,17 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 - [Sprint Planning markdown file](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Sprint%20Planning.md)
 
 [**14. Reflection on Agile Planning**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection%20on%20Agile%20Planning.md)
+
+
+[**15. Template Analysis and Selection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Template%20Analysis%20and%20Selection.md)
+
+![Template Analysis Screenshot](https://github.com/user-attachments/assets/ab4c6099-add4-4614-889d-34d5df6b252f)
+
+
+[**16. Custom Kanban Board**](https://github.com/users/MasizoleSukwana/projects/5)
+
+![Kanban Board Screenshot 1](https://github.com/user-attachments/assets/f0f0b184-14f2-4b19-beb4-be9bb0ab09c9)
+
+![Kanban Board Screenshot 2](https://github.com/user-attachments/assets/3a029705-03c7-40a6-9bbb-38b6a97cbc97)
+
+
