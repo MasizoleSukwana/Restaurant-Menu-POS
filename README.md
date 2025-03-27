@@ -6,6 +6,9 @@ The system seeks to improve customer satisfaction, expedite order processing, an
 This point-of-sale system aims to decrease the need for waitstaff and order handling problems by incorporating essential features like menu browsing, order customization, digital payment processing, and real-time order communication with the kitchen. 
 For modernizing restaurant operations and guaranteeing quicker, more accurate service, it is also made to easily interact with the infrastructure already in place, such as inventory management and customer management systems.
 
+**Please refer to the documentation below for all the necessary related items. **
+- You can click on each item name/link to view/open.
+
 ---
 
 ## Full Documentation
@@ -55,3 +58,6 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 ![Kanban Board Screenshot 2](https://github.com/user-attachments/assets/3a029705-03c7-40a6-9bbb-38b6a97cbc97)
 
 
+[**17. Kanban Board Explanation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Kanban%20Board%20Explanation.md)
+
+[**18. Reflection on Project Templates and Kanban Board Implementation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection%20on%20Templates%20%26%20Kanban%20Board%20Implementation.md)
