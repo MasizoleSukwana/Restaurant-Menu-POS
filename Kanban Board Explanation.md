@@ -34,7 +34,7 @@ Tasks that have advanced from the backlog are tracked in the Blocked column, but
 
 
 - ### **In Review** 
-Completed activities that require review or testing before distribution.  
+Completed activities that require review or testing before deployment.  
 
 
 - ### **Done**  
