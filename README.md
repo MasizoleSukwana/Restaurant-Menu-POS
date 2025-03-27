@@ -51,7 +51,7 @@ For modernizing restaurant operations and guaranteeing quicker, more accurate se
 ![Template Analysis Screenshot](https://github.com/user-attachments/assets/ab4c6099-add4-4614-889d-34d5df6b252f)
 
 
-[**16. Custom Kanban Board**](https://github.com/users/MasizoleSukwana/projects/5)
+[**16. Sprint 1 - Kanban Board**](https://github.com/users/MasizoleSukwana/projects/5)
 
 ![Kanban Board Screenshot 1](https://github.com/user-attachments/assets/f0f0b184-14f2-4b19-beb4-be9bb0ab09c9)
 
