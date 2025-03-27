@@ -11,59 +11,59 @@ A team member can only pick another task if as per the instruction from the scru
 
 ## **Kanban Board Workflow**  
 
-### **Backlog**  
+- ### **Backlog**  
 Includes all of the user stories and unfinished tasks that need to be completed.  
 
 
-### **To Do**  
+- ### **To Do**  
 Tasks in the current development cycle that have been prioritized and are prepared for work.  
 
 
-### **In Progress** 
+- ### **In Progress** 
 Tasks that developers, designers, or testers are working on right now.  
 
 
-### **Testing** 
+- ### **Testing** 
 Tasks that have moved forward from the backlog and are currently in the testing phase are tracked in the Testing column.  
 
 
-### **Blocked**
+- ### **Blocked**
 Tasks that have advanced from the backlog are tracked in the Blocked column, but:  
 - Failed the testing process because of errors or problems.  
 - Dependencies on other needs prevent them from being finished.  
 
 
-### **In Review** 
+- ### **In Review** 
 Completed activities that require review or testing before distribution.  
 
 
-### **Done**  
+- ### **Done**  
 Tasks that are effectively finished, tested, and implemented.  
 
 ---
 
 ## Using Kanban to Manage and Eliminate Bottlenecks
 
-### **Effective Management of Tasks**
+- ### **Effective Management of Tasks**
 
 Customers, Waiters, Chefs, IT Administrators, and Managers are among the system's many stakeholders, and Kanban facilitates task tracking for each of these groups.  
 
 
-### **Order and Development Tracking in Real Time**
+- ### **Order and Development Tracking in Real Time**
 
 Kanban guarantees real-time progress tracking of feature development, problem repairs, and system updates, much like the restaurant process.  
 
 
-### **Adaptable & Ongoing Development**
+- ### **Adaptable & Ongoing Development**
 
 Kanban, in contrast to strict development methodologies, permits ongoing modifications in response to operational requirements and user input.  
 
 
-### **Features are Prioritized**
+- ### **Features are Prioritized**
 
 While less important improvements (like supplier automation) can wait, **"Must-Have"** features like **digital menu access and payment integration** can be focused on immediately.  
 
 
-### **Cooperation Among Teams**
+- ### **Cooperation Among Teams**
 
 Transparency in work progress allows **developers, IT administrators, and business stakeholders** to collaborate and eliminate bottlenecks.  
