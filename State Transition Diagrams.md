@@ -1,8 +1,8 @@
 # Restaurant-POS Ordering Menu - Critical System Objects
 - Customer
 - Order
-- Kitchen Display
 - Payment
+- Kitchen Display
 - Waiter
 - Manager
 - IT Admin
