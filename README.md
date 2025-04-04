@@ -61,3 +61,11 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 [**17. Kanban Board Explanation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Kanban%20Board%20Explanation.md)
 
 [**18. Reflection on Project Templates and Kanban Board Implementation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection%20on%20Templates%20%26%20Kanban%20Board%20Implementation.md)
+
+[**19. State Transition Objects and Diagrams**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/State%20Transition%20Diagrams.md)
+
+[**20. Activity Workflow Diagrams**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Activity%20Workflow%20Diagrams.md)
+
+[**21. Diagrams Explanations and Traceability**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Diagrams%20Explanations%20and%20Traceability.md)
+
+[**22. Object State and Activity Workflow Reflection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Object%20State%20and%20Activity%20Workflow%20Reflection.md)
