@@ -1,81 +1,17 @@
 # Domain Model: Restaurant POS – Ordering Menu System
 
-## Entities, Attributes & Methods
-
-### 1. Customer
-- **Attributes**: `customerId`, `name`, `email`, `phone`, `deviceType`
-- **Methods**:
-  - `viewMenu()`
-  - `placeOrder(orderDetails)`
-
-### 2. MenuItem
-- **Attributes**: `menuItemId`, `name`, `description`, `price`, `category`, `isAvailable`
-- **Methods**:
-  - `updateAvailability(status)`
-  - `getMenuByCategory(category)`
-
-### 3. Order
-- **Attributes**: `orderId`, `customerId`, `orderDateTime`, `status`, `isOffline`
-- **Methods**:
-  - `updateStatus(newStatus)`
-  - `syncOfflineOrder()`
-
-### 4. OrderItem
-- **Attributes**: `orderItemId`, `orderId`, `menuItemId`, `quantity`, `customization`
-- **Methods**:
-  - `calculateItemTotal()`
-  - `applyCustomization(customOptions)`
-
-### 5. Payment
-- **Attributes**: `paymentId`, `orderId`, `paymentMethod`, `paymentStatus`, `transactionId`, `timestamp`
-- **Methods**:
-  - `processPayment()`
-  - `generateReceipt()`
-
-### 6. KitchenDisplay
-- **Attributes**: `displayId`, `currentOrderId`
-- **Methods**:
-  - `showNextOrder()`
-  - `refreshDisplay()`
-
-### 7. Waiter
-- **Attributes**: `waiterId`, `name`, `assignedTable`, `accessLevel`
-- **Methods**:
-  - `viewReadyOrders()`
-  - `deliverOrder(orderId)`
-
-### 8. Chef
-- **Attributes**: `chefId`, `name`, `station`
-- **Methods**:
-  - `viewIncomingOrders()`
-  - `updateOrderStatus(orderId, status)`
-
-### 9. ITAdmin
-- **Attributes**: `adminId`, `name`, `email`, `role`
-- **Methods**:
-  - `viewSystemLogs()`
-  - `createUserProfile(userType, userDetails)`
-
-### 10. Manager
-- **Attributes**: `managerId`, `name`, `email`
-- **Methods**:
-  - `viewOfflineOrders()`
-  - `checkStockLevels()`
-
-### 11. Supplier
-- **Attributes**: `supplierId`, `name`, `contact`, `productList`
-- **Methods**:
-  - `receiveStockRequest(stockItem)`
-  - `updateProductList(productData)`
-
-### 12. StockItem
-- **Attributes**: `stockItemId`, `name`, `quantityAvailable`, `reorderThreshold`, `supplierId`
-- **Methods**:
-  - `checkReorderStatus()`
-  - `adjustQuantity(amount)`
-
-### 13. PaymentIntegrationLog
-- **Attributes**: `logId`, `paymentId`, `errorMessage`, `timestamp`, `isResolved`
-- **Methods**:
-  - `markAsResolved()`
-  - `notifyFinanceTeam()`
+| **Entity**            | **Attributes**                                                                 | **Methods**                                                                                         | **Relationships**                                                                                   |
+|-----------------------|--------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| Customer              | customerId, name, email, phone, deviceType                                     | viewMenu(), placeOrder(orderDetails)                                                                | Places Orders                                                                                        |
+| MenuItem              | menuItemId, name, description, price, category, isAvailable                    | updateAvailability(status), getMenuByCategory(category)                                              | Linked to OrderItem                                                                                  |
+| Order                 | orderId, customerId, orderDateTime, status, isOffline                          | updateStatus(newStatus), syncOfflineOrder()                                                         | Contains OrderItems, Linked to Customer & Payment                                                   |
+| OrderItem             | orderItemId, orderId, menuItemId, quantity, customization                      | calculateItemTotal(), applyCustomization(customOptions)                                              | Belongs to Order, Linked to MenuItem                                                                 |
+| Payment               | paymentId, orderId, paymentMethod, paymentStatus, transactionId, timestamp     | processPayment(), generateReceipt()                                                                  | Belongs to Order                                                                                      |
+| KitchenDisplay        | displayId, currentOrderId                                                      | showNextOrder(), refreshDisplay()                                                                    | Displays Orders                                                                                       |
+| Waiter                | waiterId, name, assignedTable, accessLevel                                     | viewReadyOrders(), deliverOrder(orderId)                                                             | Interacts with Orders and Customers                                                                  |
+| Chef                  | chefId, name, station                                                          | viewIncomingOrders(), updateOrderStatus(orderId, status)                                             | Prepares Orders                                                                                       |
+| ITAdmin               | adminId, name, email, role                                                     | viewSystemLogs(), createUserProfile(userType, userDetails)                                           | Manages System Users                                                                                  |
+| Manager               | managerId, name, email                                                         | viewOfflineOrders(), checkStockLevels()                                                              | Oversees StockItems, Payment Logs, and System Health                                                 |
+| Supplier              | supplierId, name, contact, productList                                         | receiveStockRequest(stockItem), updateProductList(productData)                                       | Supplies StockItems                                                                                   |
+| StockItem             | stockItemId, name, quantityAvailable, reorderThreshold, supplierId             | checkReorderStatus(), adjustQuantity(amount)                                                         | Linked to Supplier & Manager                                                                          |
+| PaymentIntegrationLog | logId, paymentId, errorMessage, timestamp, isResolved                          | markAsResolved(), notifyFinanceTeam()                                                                | Alerts Finance Institution Rep & IT Admin                                                            |
