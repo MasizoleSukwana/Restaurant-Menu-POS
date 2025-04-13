@@ -1,4 +1,3 @@
-````markdown
 ```mermaid
 classDiagram
     class Customer {
@@ -138,4 +137,3 @@ classDiagram
     ITAdmin "*" --> "*" Order : manages
     ITAdmin "*" --> "*" Payment : monitors
 ```
-````
