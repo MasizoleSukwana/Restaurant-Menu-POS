@@ -4,10 +4,10 @@
 The documentation for a planned Point of Sale (POS) system, intended primarily for usage in restaurants, is contained in this repository. 
 The system seeks to improve customer satisfaction, expedite order processing, and increase operational efficiency. 
 This point-of-sale system aims to decrease the need for waitstaff and order handling problems by incorporating essential features like menu browsing, order customization, digital payment processing, and real-time order communication with the kitchen. 
-It is ideal for modernizing restaurant operations and guaranteeing quicker and more accurate service delivery. It is also made to easily interact with the infrastructure in place, such as inventory management and customer management systems.
+It is ideal for modernizing restaurant operations and guaranteeing quicker and more accurate service delivery. It is also designed to easily interact with existing infrastructure, such as inventory management and customer management systems.
 
 **Please refer to the documentation below for all the necessary and related items. **
-- You can click on each item name/link to view/open.
+- Click on each item name/link to view/open.
 
 ---
 
@@ -69,3 +69,9 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 [**21. Diagrams Explanations and Traceability**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Diagrams%20Explanations%20and%20Traceability.md)
 
 [**22. Object State and Activity Workflow Reflection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Object%20State%20and%20Activity%20Workflow%20Reflection.md)
+
+[**23. POS for Ordering Menu - Business Rules**[(https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/System%20Business%20Rules.md)
+
+[**24. Domain Model - Table**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Domain%20Model.md)
+
+[**25. Class Diagram in Mermaid**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Class%20Diagram%20in%20Mermaid.md)
