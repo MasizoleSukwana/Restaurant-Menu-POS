@@ -70,8 +70,10 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 
 [**22. Object State and Activity Workflow Reflection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Object%20State%20and%20Activity%20Workflow%20Reflection.md)
 
-[**23. POS for Ordering Menu - Business Rules**[(https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/System%20Business%20Rules.md)
+[**23. POS for Ordering Menu - Business Rules**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/System%20Business%20Rules.md)
 
 [**24. Domain Model - Table**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Domain%20Model.md)
 
 [**25. Class Diagram in Mermaid**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Class%20Diagram%20in%20Mermaid.md)
+
+[**26. Reflection on Domain Modeling and Class Diagram Development**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Reflection%20on%20Domain%20Modeling%20and%20Class%20Diagram.md)
