@@ -1,3 +1,5 @@
+## Restaurant POS for Ordering Menu - Class Diagram
+
 ```mermaid
 classDiagram
     class Customer {
