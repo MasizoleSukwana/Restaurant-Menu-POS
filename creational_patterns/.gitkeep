@@ -1,184 +1,26 @@
-# Creational Design Patterns - Restaurant Use Case
+# order_factory.py
 
-# --------------------
-# 1. Simple Factory
-# --------------------
 class Order:
+    def __init__(self, items):
+        self.items = items
+
     def prepare(self):
-        pass
+        return f"Preparing order with items: {', '.join(self.items)}"
 
 class DineInOrder(Order):
     def prepare(self):
-        return "Preparing Dine-In Order"
+        return f"Dine-in order: {super().prepare()}"
 
 class TakeawayOrder(Order):
     def prepare(self):
-        return "Preparing Takeaway Order"
+        return f"Takeaway order: {super().prepare()}"
 
 class OrderFactory:
     @staticmethod
-    def create_order(order_type):
+    def create_order(order_type, items):
         if order_type == "dine-in":
-            return DineInOrder()
+            return DineInOrder(items)
         elif order_type == "takeaway":
-            return TakeawayOrder()
+            return TakeawayOrder(items)
         else:
             raise ValueError("Invalid order type")
-
-# --------------------
-# 2. Factory Method
-# --------------------
-from abc import ABC, abstractmethod
-
-class PaymentProcessor(ABC):
-    @abstractmethod
-    def process_payment(self, amount):
-        pass
-
-class CreditCardProcessor(PaymentProcessor):
-    def process_payment(self, amount):
-        return f"Processing credit card payment of {amount}"
-
-class MobileWalletProcessor(PaymentProcessor):
-    def process_payment(self, amount):
-        return f"Processing mobile wallet payment of {amount}"
-
-class PaymentFactory:
-    @staticmethod
-    def get_processor(method):
-        if method == "card":
-            return CreditCardProcessor()
-        elif method == "wallet":
-            return MobileWalletProcessor()
-        else:
-            raise ValueError("Invalid payment method")
-
-# --------------------
-# 3. Abstract Factory
-# --------------------
-class KitchenDisplay:
-    def show_order(self):
-        pass
-
-class WaiterNotification:
-    def notify(self):
-        pass
-
-class DineInKitchenDisplay(KitchenDisplay):
-    def show_order(self):
-        return "Dine-in order on kitchen screen"
-
-class TakeawayKitchenDisplay(KitchenDisplay):
-    def show_order(self):
-        return "Takeaway order on kitchen screen"
-
-class DineInNotification(WaiterNotification):
-    def notify(self):
-        return "Notify waiter to serve table"
-
-class TakeawayNotification(WaiterNotification):
-    def notify(self):
-        return "Notify waiter for pickup"
-
-class AbstractOrderUIFactory(ABC):
-    @abstractmethod
-    def create_display(self):
-        pass
-
-    @abstractmethod
-    def create_notification(self):
-        pass
-
-class DineInUIFactory(AbstractOrderUIFactory):
-    def create_display(self):
-        return DineInKitchenDisplay()
-
-    def create_notification(self):
-        return DineInNotification()
-
-class TakeawayUIFactory(AbstractOrderUIFactory):
-    def create_display(self):
-        return TakeawayKitchenDisplay()
-
-    def create_notification(self):
-        return TakeawayNotification()
-
-# --------------------
-# 4. Builder
-# --------------------
-class Pizza:
-    def __init__(self):
-        self.ingredients = []
-
-    def __str__(self):
-        return f"Pizza with {', '.join(self.ingredients)}"
-
-class PizzaBuilder:
-    def __init__(self):
-        self.pizza = Pizza()
-
-    def add_cheese(self):
-        self.pizza.ingredients.append("cheese")
-        return self
-
-    def add_toppings(self, topping):
-        self.pizza.ingredients.append(topping)
-        return self
-
-    def build(self):
-        return self.pizza
-
-# --------------------
-# 5. Prototype
-# --------------------
-import copy
-
-class Meal:
-    def __init__(self, name, ingredients):
-        self.name = name
-        self.ingredients = ingredients
-
-    def clone(self):
-        return copy.deepcopy(self)
-
-# --------------------
-# 6. Singleton
-# --------------------
-class RestaurantConfig:
-    __instance = None
-
-    def __new__(cls):
-        if cls.__instance is None:
-            cls.__instance = super(RestaurantConfig, cls).__new__(cls)
-            cls.__instance.settings = {}
-        return cls.__instance
-
-    def set(self, key, value):
-        self.settings[key] = value
-
-    def get(self, key):
-        return self.settings.get(key)
-
-# Example usage (not part of the patterns definitions)
-if __name__ == "__main__":
-    order = OrderFactory.create_order("dine-in")
-    print(order.prepare())
-
-    payment = PaymentFactory.get_processor("card")
-    print(payment.process_payment(50))
-
-    factory = DineInUIFactory()
-    print(factory.create_display().show_order())
-    print(factory.create_notification().notify())
-
-    pizza = PizzaBuilder().add_cheese().add_toppings("pepperoni").build()
-    print(pizza)
-
-    meal = Meal("Spaghetti", ["pasta", "tomato sauce"])
-    cloned_meal = meal.clone()
-    print(cloned_meal.name, cloned_meal.ingredients)
-
-    config1 = RestaurantConfig()
-    config2 = RestaurantConfig()
-    config1.set("currency", "USD")
-    print(config2.get("currency"))
