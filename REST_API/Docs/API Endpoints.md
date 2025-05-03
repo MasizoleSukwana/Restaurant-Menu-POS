@@ -1,4 +1,6 @@
 ## APIs for the Restaurant
+This section shows the end points created for the restaurant POS system. 
+The section includes the screenshots where i tried to access the SWAGGER Docs.
 
 ### Menu Browsing
 HTTP Method	Endpoint	Description
