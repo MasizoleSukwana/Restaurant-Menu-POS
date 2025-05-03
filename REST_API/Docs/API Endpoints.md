@@ -44,15 +44,21 @@ GET	/api/users/roles/{role}	Get users by role
 PUT	/api/users/{id}/role	Update a user's role
 GET	/api/logs	Get system logs (admin only)
 
-# Offline Mode Handling
+### Offline Mode Handling
 HTTP Method	Endpoint	Description
 GET	/api/orders/offline	View all offline orders
 POST	/api/orders/sync	Sync offline orders to server
 PUT	/api/orders/{id}/approve	Manager approves offline order
 DELETE	/api/orders/{id}/discard	Discard an unsynced offline order
 
-# Supplier & Stock Requests
+### Supplier & Stock Requests
 HTTP Method	Endpoint	Description
 POST	/api/suppliers/requests	Send manual reorder request to supplier
 GET	/api/suppliers/responses	View supplier responses
 PUT	/api/stock/restock/{id}	Accept and update stock based on supplier input
+
+### API Swagger Docs NOT Accessible
+![image](https://github.com/user-attachments/assets/3880469b-9b07-4866-9656-0557ec3726bb)
+
+### Error Message
+![image](https://github.com/user-attachments/assets/b24896ff-b85d-4fe0-a039-685a894f12bc)
