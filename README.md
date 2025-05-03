@@ -83,3 +83,11 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 [**28. Creational Pattern Implementation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/tree/main/creational_patterns)
 
 [**29. Unit Testing**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/tree/main/tests)
+
+[**30. Repository Interface Design**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/CRUDCoverage/Application.py)
+
+[**31. In-Memory Implementation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/InMemory/store_memory.py)
+
+[**32. Storage-Abstraction Mechanism**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Factories/Storage-Abstraction%20Mechanism.py)
+
+[**33. Future-Proofing**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Future-Proofing_for_NewCode/OrderRepo.py)
