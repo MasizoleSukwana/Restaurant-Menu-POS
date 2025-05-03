@@ -91,3 +91,9 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 [**32. Storage-Abstraction Mechanism**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Factories/Storage-Abstraction%20Mechanism.py)
 
 [**33. Future-Proofing**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Future-Proofing_for_NewCode/OrderRepo.py)
+
+[**34. Service Layer Implementation**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/tree/main/Service%20Layer%20Implementation)
+
+[**35. REST API Development**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/REST_API/Main.py)
+
+[**36. API Documentation with Swagger UI**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/REST_API/Docs/API%20Endpoints.md)
