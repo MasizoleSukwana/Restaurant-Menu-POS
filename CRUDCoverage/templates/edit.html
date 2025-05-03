@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Menu Item</title>
+</head>
+<body>
+    <h1>Edit {{ item.name }}</h1>
+    <form method="post">
+        <label>Name:</label><br>
+        <input name="name" value="{{ item.name }}"><br>
+        <label>Description:</label><br>
+        <textarea name="description">{{ item.description }}</textarea><br>
+        <label>Price:</label><br>
+        <input name="price" type="number" step="0.01" value="{{ item.price }}"><br><br>
+        <button type="submit">Update</button>
+    </form>
+    <a href="{{ url_for('index') }}">Back</a>
+</body>
+</html>
