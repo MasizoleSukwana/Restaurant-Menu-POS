@@ -1,9 +1,12 @@
 # Why Branch Protection Rules Are Essential for the POS System
 
+Having a strong engineering discipline is crucial for any system that deals with **real-time business operations**, **money**, and **inventory**. In a live restaurant situation, you can rely on a dependable and secure pipeline thanks to these protection regulations.
+
 ## Code Branch Protection Rules - Screenshot
 
 ![image](https://github.com/user-attachments/assets/cd3da3d2-e74e-43a2-bf66-108333182c7d)
 
+![Screenshot 2025-05-10 181620](https://github.com/user-attachments/assets/73fcc001-c31d-4b61-8aa9-7e9b5642b914)
 
 
 
@@ -71,7 +74,3 @@ The GitHub branch protection rules that are enabled are listed below, along with
 | Deployment Requirement      | Validates end-to-end changes work in real environments         | Protects production systems from breaking changes              |
 
 ---
-
-## Overall Justification
-
-Having a strong engineering discipline is crucial for any system that deals with **real-time business operations**, **money**, and **inventory**. In a live restaurant situation, you can rely on a dependable and secure pipeline thanks to these protection regulations.
