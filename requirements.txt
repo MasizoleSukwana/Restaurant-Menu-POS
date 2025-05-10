@@ -1,0 +1,16 @@
+# Core dependencies
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+
+# Testing
+pytest
+pytest-mock
+
+# Optional: for mocking HTTP or external services
+requests-mock
+
+# Optional: if you want linting and formatting in CI
+flake8
+black
