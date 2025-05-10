@@ -100,9 +100,9 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 
 [**37. Branch Protection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Branch%20Protection.md)
 
-[**38. CI-CD Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/ci-cd.yml)
+[**38. CI Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/ci.yml)
 
-[**39. CI-CD Updated Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/ci-cd.yml)
+[**39. CI-CD Updated Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/cd.yml)
 
 [**40. Screenshot of a PR blocked by failing tests.**]
 
