@@ -106,6 +106,7 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 
 [**40. Screenshot of a PR blocked by failing tests.**]
 
-![image](https://github.com/user-attachments/assets/edc8b662-bdbd-4f32-8282-f9c8f8eb5eb1)
+![Screenshot 2025-05-10 192810](https://github.com/user-attachments/assets/2abff7c3-0d25-413d-9834-957d319db5f0)
 
-![image](https://github.com/user-attachments/assets/6100bb4b-3a02-4106-b7a2-1b4265205a0d)
+![image](https://github.com/user-attachments/assets/37130c85-6ae4-4f2c-b138-06cd5d9b4d6c)
+
