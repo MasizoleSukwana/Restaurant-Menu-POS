@@ -110,3 +110,4 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 
 ![image](https://github.com/user-attachments/assets/37130c85-6ae4-4f2c-b138-06cd5d9b4d6c)
 
+---
