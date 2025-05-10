@@ -2,15 +2,19 @@ name: CI/CD Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+    tags:
+      - 'v*.*.*'  # Trigger deployment and release only on version tags
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   test:
+    name: Run Unit Tests
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
       - name: Set up Python
@@ -22,38 +26,62 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install pytest
 
       - name: Run Tests
-        run: pytest --tb=short --disable-warnings
+        run: |
+          pytest --tb=short --disable-warnings
 
-  release:
+  build:
+    name: Build Release Artifact
     needs: test
-    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    if: startsWith(github.ref, 'refs/tags/')
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout Code
+      - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-
-      - name: Build Release Artifact
+      - name: Create Artifact
         run: |
           mkdir -p dist
-          zip -r dist/release.zip . -x ".git/*" "tests/*" ".github/*"
+          zip -r dist/Restaurant-Menu-POS-release.zip . -x ".git/*" "tests/*" ".github/*"
 
-      - name: Upload Release Artifact
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: restaurant-pos-release
-          path: dist/release.zip
+          name: Restaurant-Menu-POS-release
+          path: dist/Restaurant-Menu-POS.zip
+
+  deploy:
+    name: Deploy to Server
+    needs: build
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+
+    steps:
+      - name: Simulate Deployment
+        run: |
+          echo "Deploying release to server..."
+          echo "This would be replaced with SSH/Rsync/Kubernetes/etc."
+          sleep 2
+          echo "Deployment complete."
+
+  release:
+    name: Publish GitHub Release
+    needs: deploy
+    runs-on: ubuntu-latest
+    if: startsWith(github.ref, 'refs/tags/')
+
+    steps:
+      - name: Download Release Artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: Restaurant-Menu-POS-release
+          path: dist
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: dist/release.zip
+          files: dist/Restaurant-Menu-POS-release.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
