@@ -4,13 +4,13 @@ uvicorn
 pydantic
 sqlalchemy
 
-# Testing
+# For Testing
 pytest
 pytest-mock
 
-# Optional: for mocking HTTP or external services
+# For mocking HTTP or external services
 requests-mock
 
-# Optional: if you want linting and formatting in CI
+# For linting and formatting in CI
 flake8
 black
