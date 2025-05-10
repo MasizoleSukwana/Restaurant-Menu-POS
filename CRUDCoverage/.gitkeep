@@ -1,7 +1,0 @@
-restaurant_app/
-├── app.py
-├── templates/
-│   ├── index.html
-│   ├── create.html
-│   ├── edit.html
-
