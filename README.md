@@ -97,3 +97,15 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 [**35. REST API Development**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/REST_API/Main.py)
 
 [**36. API Documentation with Swagger UI**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/REST_API/Docs/API%20Endpoints.md)
+
+[**37. Branch Protection**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Branch%20Protection.md)
+
+[**38. CI-CD Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/ci-cd.yml)
+
+[**39. CI-CD Updated Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/ci-cd.yml)
+
+[**40. Screenshot of a PR blocked by failing tests.**]
+
+![image](https://github.com/user-attachments/assets/edc8b662-bdbd-4f32-8282-f9c8f8eb5eb1)
+
+![image](https://github.com/user-attachments/assets/6100bb4b-3a02-4106-b7a2-1b4265205a0d)
