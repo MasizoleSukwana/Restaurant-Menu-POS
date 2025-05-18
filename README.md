@@ -161,4 +161,4 @@ Follow these steps to get the system running locally:
 
 [**42. ROADMAP**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/ROADMAP.md)
 
-[**43. CI-CD Updated Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/cd.yml)
+[**43. Contributors' Voting Results**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/VOTING_RESULTS.md)
