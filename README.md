@@ -6,12 +6,39 @@ The system seeks to improve customer satisfaction, expedite order processing, an
 This point-of-sale system aims to decrease the need for waitstaff and order handling problems by incorporating essential features like menu browsing, order customization, digital payment processing, and real-time order communication with the kitchen. 
 It is ideal for modernizing restaurant operations and guaranteeing quicker and more accurate service delivery. It is also designed to easily interact with existing infrastructure, such as inventory management and customer management systems.
 
-**Please refer to the documentation below for all the necessary and related items. **
-- Click on each item name/link to view/open.
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get the system running locally:
+
+### 1. Clone the Repository
+
+- git clone https://github.com/MasizoleSukwana/Restaurant-Menu-POS.git
+
+### 2. Set Up a Virtual Environment
+
+- python -m venv venv
+- source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+### 3. Install Dependencies
+
+- pip install -r requirements.txt
+
+### 4. Run the Application
+
+- python Main.py
+
+### 5. Run Tests
+
+- pytest
 
 ---
 
-## Full Documentation
+**Please refer to the documentation below for all the necessary and related items. **
+- Click on each item name/link to view/open.
+
+# Full Documentation
 
 [**01. Specification**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/Restaurant%20Menu%20Ordering-POS%20Specification.md)
 
@@ -111,3 +138,27 @@ It is ideal for modernizing restaurant operations and guaranteeing quicker and m
 ![image](https://github.com/user-attachments/assets/37130c85-6ae4-4f2c-b138-06cd5d9b4d6c)
 
 ---
+
+## Features for Contribution
+
+| Feature                            | Status          | Notes / Ideas                                                      |
+|------------------------------------|------------------|---------------------------------------------------------------------|
+| Menu browsing                      | ✅ Completed      | View available menu items using `MenuService`                      |
+| Place and update orders            | ✅ Completed      | Via `OrderService`                                                 |
+| Payment processing                 | ✅ Completed      | With mock gateway, via `PaymentService`                            |
+| Stock monitoring & restocking      | ✅ Completed      | Uses `StockService` and `SupplierService`                          |
+| Offline/Online sync                | 🔲 Planned       | With `SyncService`                                                 |
+| Order editing / cancellation       | 🔲 Planned    | Allow users to modify or cancel orders                             |
+| Table & Waiter management          | 🔲 Planned        | Assign waiters to tables, manage seating                           |
+| PDF invoice generation             | 🔲 Planned        | Export and email receipts after payment                            |
+| View Orders on Kitchen Display          | ✅ Completed         | Summary reports and visual dashboards                              |
+| API for mobile customer ordering   | 🔲 Planned        | Expose public API for customers                                    |
+| Role-based permissions             | ✅ Completed      | Via `RoleService`                                                  |
+| OAuth2 / JWT Auth                  | 🔲 Planned        | Secure endpoints for frontend/mobile apps                          |
+| PWA or mobile app                  | 🔲 Planned        | Build frontend to consume services                                 |
+
+[**41. Contributions**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/CONTRIBUTIONS.md)
+
+[**42. ROADMAP**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/ROADMAP.md)
+
+[**43. CI-CD Updated Workflow**](https://github.com/MasizoleSukwana/Restaurant-Menu-POS/blob/main/.github/workflows/cd.yml)
